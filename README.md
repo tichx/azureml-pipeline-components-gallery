@@ -6,8 +6,8 @@ This gallery is an open community for data scientists to contribute, share, and 
 Please refer to the official docs at [Azure Machine Learning](http://#).
 
 ## Quick Links
-* [Pipelines gallery](https://github.com/tichx/azureml-pipeline-module-gallery/tree/master/pipeline-gallery)
-* [Components gallery](https://github.com/tichx/azureml-pipeline-module-gallery/tree/master/custom-modules-gallery)
+* [Pipelines gallery](https://github.com/tichx/azureml-pipeline-components-gallery/tree/master/Pipelines)
+* [Components gallery](https://github.com/tichx/azureml-pipeline-components-gallery/tree/master/Components)
 * [Components tutorials](https://#) (todo)
 * [Industry cases solved with pipeline and components](http:#) (todo)
 
