@@ -3,12 +3,9 @@ This gallery is an open community for data scientists to contribute, share, and 
 
 Please refer to the official docs at [Azure Machine Learning](http://help.doc).
 
-## Get Involved
-Please refer to the [Community](https://www.kubeflow.org/docs/about/community/) page.
-
 ## Quick Links
-* [Pipelines gallery](https://k8s-testgrid.appspot.com/sig-big-data)
-* [Custom modules gallery](https://prow.k8s.io/?repo=kubeflow%2Fkubeflow)
+* [Pipelines gallery](https://github.com/tichx/azureml-pipeline-module-gallery/tree/master/pipeline-samples)
+* [Custom modules gallery](https://github.com/tichx/azureml-pipeline-module-gallery/tree/master/custom-modules-samples)
 * [Custom modules tutorials](https://k8s-gubernator.appspot.com/pr)
 * [Business cases solved with AML studio](http://testing-argo.kubeflow.org)
 
@@ -32,6 +29,8 @@ modules used: xx, xx, xx, all linked
 one 
 
 
+## Get Involved
+Please refer to the [Community](https://www.kubeflow.org/docs/about/community/) page.
 
 
 
