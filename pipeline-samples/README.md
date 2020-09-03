@@ -1,1 +1,2 @@
 # Pipeline samples
+[Text classification pipeline](https://github.com/Azure/DesignerPrivatePreviewFeatures/blob/master/azureml-modules/samples/text-classification.ipynb) Text classification pipeline - Demonstrates how to train and score models with module SDK.
