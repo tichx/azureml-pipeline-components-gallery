@@ -9,7 +9,7 @@ Please refer to the official docs at [Azure Machine Learning](http://#).
 * [Pipelines gallery](https://github.com/tichx/azureml-pipeline-module-gallery/tree/master/pipeline-gallery)
 * [Custom modules gallery](https://github.com/tichx/azureml-pipeline-module-gallery/tree/master/custom-modules-gallery)
 * [Custom modules tutorials](https://#)
-* [Industry cases with AML studio](http:#)
+* [Industry cases solved with pipeline and modules](http:#)
 
 ## Get Involved
 Please refer to the [Community](https://#) page.
