@@ -1,0 +1,12 @@
+name: project_environment
+channels:
+- defaults
+dependencies:
+- python=3.6.8
+- pip:
+  - azureml-defaults==0.1.0.*
+  - --index-url https://azuremlsdktestpypi.azureedge.net/dev/aml/office/134157926D8F 
+  - --extra-index-url https://pypi.org/simple
+  - nltk==3.4
+  - pandas==0.25.3
+  - pyarrow==0.16.0

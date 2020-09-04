@@ -1,0 +1,35 @@
+amlModuleIdentifier:
+  moduleName: TextCNN Word to Id
+  moduleVersion: 0.0.8
+  namespace: microsoft.com/azureml/samples
+metadata:
+  annotations:
+    tags:
+    - Data Transformation
+description: Transform Word to Id
+inputs:
+- name: Input vocab
+  type: AnyDirectory
+  description: The vocabulary file
+- name: Input text
+  type: AnyDirectory
+  description: Input text
+- name: Text column name
+  type: String
+  description: Select the column that contains the Text
+outputs:
+- name: Processed data
+  type: AnyDirectory
+  description: Processed data
+implementation:
+  container:
+    amlEnvironment:
+      python:
+        condaDependenciesFile: conda.yaml
+    command: [python, run.py]
+    args: [
+      --input-vocab, {inputPath: Input vocab},
+      --input-data, {inputPath: Input text},
+      --text-column, {inputValue: Text column name},
+      --output-data, {outputPath: Processed data},
+    ]

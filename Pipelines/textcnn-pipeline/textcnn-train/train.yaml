@@ -1,0 +1,84 @@
+amlModuleIdentifier:
+  moduleName: TextCNN Train Model
+  moduleVersion: 0.0.17
+  namespace: microsoft.com/azureml/samples
+metadata:
+  annotations:
+    tags:
+    - Model Training
+description: Trains a TextCNN model in a supervised manner
+inputs:
+- name: Train data file
+  type: AnyDirectory
+  description: Training data
+- name: Validation data file
+  type: AnyDirectory
+  description: Test data
+- name: Word embedding dim
+  default: 300
+  type: Int
+  description: The dimention of word embeddings
+- name: Kernel num
+  default: 128
+  type: Int
+  description: Number of each kind of kernel
+- name: Dropout
+  default: 0.5
+  type: Float
+  description: The probability for dropout
+- name: Batch size
+  default: 32
+  type: Int
+  description: Batch size
+- name: L2 regularization weight
+  default: 0
+  type: Float
+  description: L2 regularization weight
+- name: Test interval
+  default: 100
+  type: Int
+  description: How many steps to wait before testing
+- name: Epoch num
+  default: 1
+  type: Int
+  description: Epoch num
+- name: Label column name
+  type: String
+  description: Select the column that contains the label
+- name: True label value
+  type: String
+  description: Set true label value
+- name: Text column name
+  type: String
+  description: Select the column that contains the Text
+outputs:
+- name: Trained model
+  type: ModelDirectory
+  description: Trained learner
+- name: Vocab
+  type: AnyDirectory
+  description: Vocab for predict the sentence
+implementation:
+  container:
+    amlEnvironment:
+      docker:
+        baseImage: mcr.microsoft.com/azureml/base-gpu:intelmpi2018.3-cuda10.0-cudnn7-ubuntu16.04
+      python:
+        condaDependenciesFile: conda.yaml
+    command: [python, run.py]
+    args: [
+      --embed-dim, {inputValue: Word embedding dim},
+      --kernel-num, {inputValue: Kernel num},
+      --dropout, {inputValue: Dropout},
+      --train-file, {inputPath: Train data file},
+      --test-file, {inputPath: Validation data file},
+      --label-column, {inputValue: Label column name},
+      --true-label-value, {inputValue: True label value},
+      --text-column, {inputValue: Text column name},
+      --batch-size, {inputValue: Batch size},
+      --l2, {inputValue: L2 regularization weight},
+      --test-interval, {inputValue: Test interval},
+      --epochs, {inputValue: Epoch num},
+      --trained-model, {outputPath: Trained model},
+      --vocab-path, {outputPath: Vocab},
+    ]

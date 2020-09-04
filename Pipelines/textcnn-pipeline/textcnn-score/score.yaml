@@ -1,0 +1,33 @@
+amlModuleIdentifier:
+  moduleName: TextCNN Score Model
+  moduleVersion: 0.0.3
+  namespace: microsoft.com/azureml/samples
+metadata:
+  annotations:
+    tags:
+    - Model Scoring & Evaluation
+description: Predict the classes through the trained TextCNN model
+inputs:
+- name: Trained model
+  type: ModelDirectory
+  description: The trained model file
+- name: Predict data
+  type: AnyDirectory
+  description: Predict data
+outputs:
+- name: Predict result
+  type: AnyDirectory
+  description: Predict result
+implementation:
+  container:
+    amlEnvironment:
+      docker:
+        baseImage: mcr.microsoft.com/azureml/base-gpu:intelmpi2018.3-cuda10.0-cudnn7-ubuntu16.04
+      python:
+        condaDependenciesFile: conda.yaml
+    command: [python, run.py]
+    args: [
+      --trained-model, {inputPath: Trained model},
+      --predict-path, {inputPath: Predict data},
+      --predict-result-path, {outputPath: Predict result},
+    ]
