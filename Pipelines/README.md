@@ -2,7 +2,7 @@
 This gallery highlights using AML studio pipeline with components to build, optimize, and manage machine learning workflows. [Learn more](https://docs.microsoft.com/en-us/azure/machine-learning/concept-ml-pipelines).
 
 
-![](https://camo.githubusercontent.com/1df59ecdbba29601542845a268b7766adfac8ba0/68747470733a2f2f7265636f64617461736574732e626c6f622e636f72652e77696e646f77732e6e65742f696d616765732f64657369676e65722d647261672d616e642d64726f702e676966)
+![](https://docs.microsoft.com/en-us/azure/machine-learning/media/concept-designer/designer-drag-and-drop.gif)
 AML Designer lets you visually connect datasets and components on an interactive canvas to create machine learning models.
 
 ## Pipeline tutorials
