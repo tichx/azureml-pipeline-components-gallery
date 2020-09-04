@@ -32,6 +32,11 @@ Instructions on how to contribute to the components
 | --- | --- | --- |
 |![](https://contentmamluswest001.blob.core.windows.net/content/14b2744cf8d6418c87ffddc3f3127242/9502630827244d60a1214f250e3bbca7/464eb78e197d4440a332a129d8d523eb/image?20608223568773365)<br>[Text Classification with CNN](https://github.com/tichx/azureml-pipeline-components-gallery/tree/master/Pipelines/textcnn-pipeline)| <img src="https://ms-toolsai.gallerycdn.vsassets.io/extensions/ms-toolsai/vscode-ai/0.5.1/1556575437282/Microsoft.VisualStudio.Services.Icons.Default" width=20px> [Open in AML Studio Designer](https://github.com/Azure/DesignerPrivatePreviewFeatures/blob/master/azureml-modules/samples/text-classification.ipynb) | Text classification pipeline - Demonstrates how to train and score models with component SDK|
 
+## Application
+
+
 ## Other sources
 
  Text classification pipeline - Demonstrates how to train and score models with module SDK.
+
+
