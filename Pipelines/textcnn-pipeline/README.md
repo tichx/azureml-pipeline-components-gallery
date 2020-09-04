@@ -18,7 +18,11 @@ The goal of text classification is to assign some piece of text to one or more p
 
 | Contributed by | Maintained by | Category | Tags | Last update | 
 |---|---|---|---|---|
-| Microsoft | @Microsoft Open Source | Tutorials |text-processing, text-classification, CNN| September 4, 2020
+| Microsoft | @Microsoft Open Source | Tutorials |text-processing, text-classification, CNN| September 4, 2020 |
+
+## Industry
+
+### 
 
 ## Related components
 | Source code               | Description                                                  |
