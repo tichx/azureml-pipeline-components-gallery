@@ -24,5 +24,5 @@ The goal of text classification is to assign some piece of text to one or more p
 | Source code               | Description                                                  |
 | --- |--- |
 | [textcnn-train](textcnn-train) | A module to perform training of a text classicification model from scratch using pytorch, used in [text classification pipeline](../text-classification.ipynb). |
-| [textcnn-preprocess](textcnn-preprocess) | A module to preprocess input text before scoring in [text classification pipeline](../text-classification.ipynb). |
-| [textcnn-score](textcnn-score) | A module to score text classicification model in [text classification pipeline](../text-classification.ipynb). |
+| [textcnn-preprocess](textcnn-preprocess) | A module to preprocess input text before scoring in [text classification pipeline](https://github.com/tichx/azureml-pipeline-components-gallery/blob/master/Pipelines/textcnn-pipeline/text-classification.ipynb). |
+| [textcnn-score](textcnn-score) | A module to score text classicification model in [text classification pipeline](#). |
