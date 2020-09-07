@@ -12,8 +12,7 @@ Please refer to the official docs at [Azure Machine Learning](http://#).
 ## Quick Links
 * [Pipelines gallery](https://github.com/tichx/azureml-pipeline-components-gallery/tree/master/Pipelines) - highlights of end to end machine learning workflow 
 * [Components gallery](https://github.com/tichx/azureml-pipeline-components-gallery/tree/master/Components) - a catalog of components
-* [Components documentation](https://#) (todo)
-* [Industry cases solved with pipeline and components](http:#) (todo)
+
 
 ## Get Involved
 Please refer to the [Community](https://#) page. (todo)
