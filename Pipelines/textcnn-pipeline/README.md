@@ -24,11 +24,11 @@ The goal of text classification is to assign some piece of text to one or more p
 
 ### Online Streaming - Netflix
 <img width=400px src="https://fm.cnbc.com/applications/cnbc.com/resources/img/editorial/2017/05/04/104449321-netflix-offline-1.720x405.jpg?v=1493920615"><br>
-Netflix has 500M users gloablly, and 132 million users streaming content on daily basis. At Netflix, recommending best selection of videos based on each individual's preference is critical to its product success. Using text classification of IMDB movie database, Netflix uses machine learning to classify a large set of genres, categories, and combine them to formulate quirkey new area that tailored for each individual's taste.
+Netflix has 500M users gloablly, and 132 million users streaming content on daily basis. At Netflix, recommending best selection of videos based on each individual's preference is critical to its product success. Using text classification of IMDB movie database, Netflix leverages machine learning to classify a large set of genres, categories, and combine them to formulate quirkey new area that tailored for each individual's taste.
 
 ### Banking - Bank of America
 <img width=400px src="https://th.bing.com/th/id/OIP.mmyufsLQuNmq8HkRaUWJ3wHaD4?pid=Api&rs=1">
-Traditionally, customers of Bank of America reported that 60% of the expense cateogory appeared on their monthly balance statement are inaccuarate. They will correct a category every time they see there's an error. With those historical correction data, Bank of America uses text classification in machine learning to continously predict categories of their expense.
+Traditionally, customers of Bank of America reported that 60% of the expense cateogory appeared on their monthly balance statement are inaccuarate. Customers would correct a category every time they see an error. With these historical correction data retained as training data set, Bank of America uses ML text classification to continously improve predictions for accurate expense cateogrization.
 
 
 ## Related components
