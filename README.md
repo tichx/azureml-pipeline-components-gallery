@@ -16,8 +16,8 @@ Please refer to the official docs at [Azure Machine Learning](http://#).
 
 ## Get Involved
 Please refer to the [Community](https://#) page. (todo)
-<a href="https://trackgit.com">
-<img src="https://sfy.cx/u/oAu" alt="trackgit-views" />
-</a>
+
+
+<a href="https://trackgit.com"><img src="https://sfy.cx/u/oAu" alt="trackgit-views" /></a> _views_
 
 
