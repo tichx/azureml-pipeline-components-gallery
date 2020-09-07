@@ -5,13 +5,6 @@ This gallery highlights using AML studio pipeline with components to build, opti
 ![](https://docs.microsoft.com/en-us/azure/machine-learning/media/concept-designer/designer-drag-and-drop.gif)
 AML Designer lets you visually connect datasets and components on an interactive canvas to create machine learning models.
 
-## Pipeline tutorials
-A list of tutorials:
-- [Get started](#)
-- [Integrate with components](#)
-- [Pipeline run](#)
-- [Pipeline best practices](#)
-
 ## Contributing
 Instructions on how to contribute to the components
 
@@ -33,8 +26,9 @@ Instructions on how to contribute to the components
 |<img width=250px src="https://az712634.vo.msecnd.net/content/14b2744cf8d6418c87ffddc3f3127242/9502630827244d60a1214f250e3bbca7/0eb69d89b94b46c591a665340ae20043/f58720c85e694565aa7bf8d077287783/image?4955111270295798"><br>[Text Classification with CNN](https://github.com/tichx/azureml-pipeline-components-gallery/tree/master/Pipelines/textcnn-pipeline)| <img src="https://ms-toolsai.gallerycdn.vsassets.io/extensions/ms-toolsai/vscode-ai/0.5.1/1556575437282/Microsoft.VisualStudio.Services.Icons.Default" width=20px> [Open in AML Studio Designer](https://github.com/Azure/DesignerPrivatePreviewFeatures/blob/master/azureml-modules/samples/text-classification.ipynb) | Text classification pipeline - Demonstrates how to train and score models with component SDK|
 
 
-## Other sources
-
- Text classification pipeline - Demonstrates how to train and score models with module SDK.
-
-
+## Pipeline resources
+A list of tutorials:
+- [Get started](#)
+- [Integrate with components](#)
+- [Pipeline run](#)
+- [Pipeline best practices](#)
