@@ -37,3 +37,7 @@ Traditionally, customers of Bank of America reported that 60% of the expense cat
 | [textcnn-train](textcnn-train) | A module to perform training of a text classicification model from scratch using pytorch, used in [text classification pipeline](../text-classification.ipynb). |
 | [textcnn-preprocess](textcnn-preprocess) | A module to preprocess input text before scoring in [text classification pipeline](https://github.com/tichx/azureml-pipeline-components-gallery/blob/master/Pipelines/textcnn-pipeline/text-classification.ipynb). |
 | [textcnn-score](textcnn-score) | A module to score text classicification model in [text classification pipeline](#). |
+
+<a href="https://trackgit.com">
+<img src="https://sfy.cx/u/oFu" alt="trackgit-views" />
+</a> views

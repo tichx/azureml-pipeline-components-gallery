@@ -17,3 +17,7 @@ In this directory, you will find a wide array of components to be used as a in A
 ## Reference papers
 - Ren, Hansheng et al. “Time-Series Anomaly Detection Service at Microsoft.” Proceedings of the 25th ACM SIGKDD International Conference on Knowledge Discovery & Data Mining (2019): n. pag. Crossref. Web.
 
+
+<a href="https://trackgit.com">
+<img src="https://sfy.cx/u/oFs" alt="trackgit-views" />
+</a> views
